@@ -15,7 +15,7 @@ spec:
         app: project3
     spec:
       containers:
-      - name: project3
-        image: saranyakorrapati/project3-app:1.0
-        ports:
-        - containerPort: 8080
+        - name: project3
+          image: saranyakorrapati/project3-app:1.0
+          ports:
+            - containerPort: 8080
